@@ -22,8 +22,7 @@ const Home = () => {
           >
             Transfoming Ideas <br /> Into{" "}
             <span
-              className="text-accent
-            "
+              className="text-accent"
             >
               Digital Rality
             </span>

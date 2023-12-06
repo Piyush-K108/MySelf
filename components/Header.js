@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/Link";
 import Socials from "../components/Socials"
-import React,{useEffect,useRef} from "react";
+import React from "react";
 
 const Header = () => {
   return (

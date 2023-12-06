@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/Link';
 import {HiArrowRight} from 'react-icons/hi2'
-import img from "../public/rounded-text.png"
+
 const ProjectsBtn = () => {
   return(
 
     <div className='mx-auto xl:mx-0'>
       <Link href={'/work'} className='relative  xs:w-[85px] xs:h-[85px]  ss:w-[125px] ss:h-[125px] sm:w-[185px] sm:h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group'>
-        <Image src={img}
+        <Image src={'/rounded-text.png'}
         width={141}
         height={148}
         alt=''

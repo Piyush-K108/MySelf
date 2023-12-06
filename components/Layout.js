@@ -13,11 +13,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-      <link rel="icon" type="image/svg+xml" href="/avatar.png" />
-      <link href="https://unpkg.com/cloudinary-video-player@1.10.2/dist/cld-video-player.min.css" rel="stylesheet"/>
-      <title>Prashant Khanchandnai</title>
-      <script src="https://unpkg.com/cloudinary-video-player@1.10.2/dist/cld-video-player.min.js" 
-    type="text/javascript"></script>
+        <link rel="icon" type="image/svg+xml" href="/avatar.png" />
+        <title>Prashant Khanchandnai</title>
       </Head>
       <div
         className={`page bg-site text-white bg-cover   bg-no-repeat ${sora.variable} font-sora relative`}

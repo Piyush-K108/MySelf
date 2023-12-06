@@ -31,7 +31,7 @@ const WorkSlider = () => {
 
                       {/* title */}
                       <div
-                        className="absolute bottom-0 translate-y-full xs:group-hover:-translate-y-6   group-hover:md:-translate-y-16  group-hover:xl:-translate-y-20
+                        className="absolute bottom-0 translate-y-full xs:group-hover:-translate-y-6   group-hover:ss:-translate-y-14 group-hover:md:-translate-y-16  group-hover:xl:-translate-y-20
                         transition-all duration-300
                         "
                       >

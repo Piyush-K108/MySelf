@@ -15,10 +15,13 @@ module.exports = {
       },
     },
     screens: {
+      xs:{'min':'320px','max':'568px'},
+      ss:{'min':'568px','max':'640px'},
       sm: '640px',
       md: '768px',
       lg: '960px',
       xl: '1200px',
+      img:{'min':'1200px','max':'1376px'}
     },
     extend: {
       colors: {

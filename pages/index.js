@@ -9,9 +9,9 @@ import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
-    <div className="bg-primary/60 xl:h-fill sm:h-full ">
+    <div className="bg-primary/60 xl:h-fill ss:h-full sm:h-full ">
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 ">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
+        <div className="text-center flex flex-col justify-center  xs:pt-40 md:pt-0 xl:pt-40 xl:text-left h-full container mx-auto">
           {/* Title */}
           <motion.h1
             variants={fadeIn("down", 0.2)}
@@ -24,7 +24,7 @@ const Home = () => {
             <span
               className="text-accent"
             >
-              Digital Rality
+              Digital Reality
             </span>
           </motion.h1>
 
@@ -35,7 +35,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xs:h-[140px] s:h-0 xl:mx-0 mb-10 xl:mb-16"
           >
             Crafting intelligent digital experiences with a touch of innovation,
             seamlessly weaving code and machine learning into captivating

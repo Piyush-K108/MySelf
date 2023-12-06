@@ -4,7 +4,7 @@ const TopLeftImg = () => {
   return (
     <div className="absolute
     opacity-50
-    left-0 top-0 mix-blend-color-dodge z-10 w-[200px] xs:w-[400px]">
+    left-0 top-0 mix-blend-color-dodge z-1 sm:w-[200px] xs:w-[400px]">
       <Image src={img} alt=''/>
     </div>
   );

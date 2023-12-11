@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 import TopLeftImg from "../components/TopLeftImg";
 import Header from "../components/Header";
 import Head from "next/head";
-import Cursor from "./cursor/cursor";
+import Cursor from "./cursor/Cursor";
 const sora = Sora({
   subsets: ["latin"],
   variable: "--font-sora",

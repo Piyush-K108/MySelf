@@ -7,7 +7,7 @@ import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
-    <div className="bg-primary/60 xl:h-fill ss:h-full sm:h-full ">
+    <div className="bg-primary/60 !overflow-hidden xl:h-fill ss:h-full sm:h-full ">
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 ">
         <div className="text-center flex flex-col justify-center  xs:pt-40 md:pt-0 xl:pt-40 xl:text-left h-full container mx-auto">
           {/* Title */}
@@ -72,7 +72,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute top-[20%] lg:bottom-0
+          className="w-full h-full max-w-[737px] max-h-[80px] absolute top-[20%] lg:bottom-0
       lg:right-[8%]
       "
         >
@@ -84,3 +84,4 @@ const Home = () => {
 };
 
 export default Home;
+

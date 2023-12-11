@@ -1,11 +1,11 @@
 import Bulb from "../../components/Bulb";
-import Circles from "../../components/Circles";
+import {Circles} from "../../components/Circles";
 import WorkSlider from "../../components/WorkSlider"
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 const Work = () => {
   return (
-    <div className="h-[110%] lg:h-[99%] sm:h-[99%] xl:h-[110%] bg-primary/30  flex items-center">
+    <div className="h-[100%] lg:h-[99%] sm:h-[99%] xl:h-[100%] bg-primary/30  flex items-center">
       <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">

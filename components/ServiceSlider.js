@@ -39,7 +39,11 @@ const serviceData = [
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination } from 'swiper';
-
+import "swiper/swiper.min.css";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const ServiceSlider = () => {
   return (

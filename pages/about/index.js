@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Avatar from "../../components/Avatar";
-import Circles from "../../components/Circles";
+import {Circles} from "../../components/Circles";
 // icons
 import {
   FaHtml5,
@@ -202,7 +202,7 @@ const About = () => {
                   <CountUp start={0} end={3} duration={5} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4]  max-w-[100px]">
-                  Certificated Collected
+                  Certificates Collected
                 </div>
               </div>
             </div>

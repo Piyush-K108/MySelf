@@ -7,7 +7,7 @@ import {
   HiChatBubbleBottomCenterText,
   HiEnvelope,
 } from "react-icons/hi2";
-
+import { FaProjectDiagram } from "react-icons/fa";
 // nav data
 export const navData = [
   { name: "home", path: "/", icon: <HiHome /> },
@@ -24,6 +24,11 @@ export const navData = [
     path: "/contact",
     icon: <HiEnvelope />,
   },
+  {
+    name: "projects",
+    path: "/projects",
+    icon: <FaProjectDiagram />,
+  },
 ];
 
 import Link from "next/link";
@@ -37,7 +42,7 @@ const Nav = () => {
       <div
         className="flex w-full xl:flex-col items-center justify-between
       xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 xs:h-[2px]   ss:h-[80px]   xl:h-max py-8 bg-white/10
-      backdrop-blur-sm ss:text-3xl sm:text-3xl xs:text-2xl  xl:text-xl xl:rounded-full
+      backdrop-blur-sm ss:text-3xl sm:text-3xl xs:text-xl  xl:text-xl xl:rounded-full
       "
       >
         {navData.map((link, index) => {

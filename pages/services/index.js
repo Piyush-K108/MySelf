@@ -1,13 +1,13 @@
 
 import Bulb from "../../components/Bulb";
-import Circles from "../../components/Circles";
+import {Circles2} from "../../components/Circles";
 import ServiceSlider from "../../components/ServiceSlider"
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 const Services = () => {
   return (
     <div className="h-full bg-primary/30 py-36 flex items-center">
-      <Circles />
+      <Circles2 />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
           {/* text */}

@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import TopLeftImg from "../components/TopLeftImg";
 import Header from "../components/Header";
 import Head from "next/head";
+import Cursor from "./cursor/cursor";
 const sora = Sora({
   subsets: ["latin"],
   variable: "--font-sora",
@@ -14,6 +15,7 @@ const Layout = ({ children }) => {
     <>
       <Head>
         <link rel="icon" type="image/svg+xml" href="/avatar.png" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"/>
         <title>Prashant Khanchandnai</title>
       </Head>
       <div
@@ -21,7 +23,8 @@ const Layout = ({ children }) => {
       >
         <TopLeftImg />
         <Nav />
-        <Header />
+        <Cursor/>
+       <Header/>
         {children}
       </div>
     </>

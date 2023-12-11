@@ -2,6 +2,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
+import "swiper/swiper.min.css";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 const WorkSlider = () => {
   return (
     <Swiper
@@ -26,7 +31,7 @@ const WorkSlider = () => {
                       {/* gradient */}
                       <div
                         className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0
-                      group-hover:opacity-80 transition-none duration-700"
+                      group-hover:opacity-80 transition-all duration-700"
                       ></div>
 
                       {/* title */}

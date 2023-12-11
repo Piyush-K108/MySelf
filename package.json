@@ -10,9 +10,13 @@
   },
   "dependencies": {
     "@next/font": "^13.4.4",
+    "@react-three/drei": "^9.90.0",
+    "@react-three/fiber": "^8.15.12",
     "framer-motion": "^10.12.16",
+    "maath": "^0.10.4",
     "next": "13.4.3",
     "react": "18.2.0",
+    "react-color": "^2.19.3",
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
@@ -22,10 +26,12 @@
     "sharp": "^0.33.0",
     "swiper": "^9.4.1",
     "tailwind-scrollbar": "^3.0.4",
-    "tsparticles": "^2.9.3"
+    "three": "^0.159.0",
+    "tsparticles": "^2.9.3",
+    "valtio": "^1.12.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.16",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
     "postcss": "^8.4.23",

@@ -40,14 +40,14 @@ const WorkSlider = () => {
                         transition-all duration-300
                         "
                       >
-                        <div className=" text-[13px] xs:text-[8px] tracking-[0.2rem] flex items-center justify-center gap-x-2">
+                        <a href={image.link} className=" text-[13px] xs:text-[8px] tracking-[0.2rem] flex items-center justify-center gap-x-2">
                           {/* 1 */}
                           <div className="delay-100">LIVE </div>
                           {/* 2 */}
                           <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150"> PROJECT </div>
                           {/* icon */}
                           <div className="text-xl  xs:text-[14px] translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200"><BsArrowRight/></div>
-                        </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -67,14 +67,14 @@ const workSlides = {
     {
       images: [
         {
-          link:"",
+          link:"https://mataniarchitects.com/",
           title: "title",
-          path: "/object detection.jpg",
+          path: "/mataniarchitects.png",
         },
         {
-          link:"",
+          link:"https://airyy.mataniarchitects.com/",
           title: "title",
-          path: "/Security.jpg",
+          path: "/adminairyy.png",
         },
         {
           link:"",

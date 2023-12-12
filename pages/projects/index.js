@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState,useEffect } from "react";
 import Image from "next/image";
 import { fadeIn } from "../../variants";
 import { useRef } from "react";
@@ -76,8 +76,8 @@ const Single = ({ item }) => {
           <motion.div 
            style={{ y }}
           className="textContainer flex-1 flex  flex-col justify-start">
-            <h2 className="h2 flex justify-center xs:text-2xl ss:text-xl sm:text-[1.9rem] lg:text-[3rem] xl:text-[3.9rem] ">
-              {item.title}
+            <h2 className="h2 flex justify-center xs:text-2xl ss:text-xl sm:text-[1.8rem] lg:text-[2.9rem] xl:text-[3.7rem] ">
+              {item.title}<span className="text-accent">.</span>
             </h2>
             <p className="xs:text-xs ss:text-xs    sm:text-justify     ss:text-center xs:text-center">
               {item.desc}
@@ -88,9 +88,22 @@ const Single = ({ item }) => {
     </section>
   );
 };
-
 const Projects = () => {
   const ref = useRef();
+  const [hideImage, setHideImage] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+      // Adjust the threshold as needed
+      setHideImage(scrollPosition > 0.5);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -103,9 +116,20 @@ const Projects = () => {
   });
 
   return (
-    <div className="portfolio  xs:pt-24 ss:pt-24  " ref={ref}>
-      <div className="progress">
-        <h1 className="xs:hidden ss:hidden">Featured Works</h1>
+    <div className="portfolio xs:pt-24 ss:pt-24 img:mr-20" ref={ref}>
+      <div className="progress z-[100] ">
+        <h1 className="xs:hidden  flex flec-row justify-center  ss:hidden">
+          Featured Works
+          {hideImage ? null : (
+            <motion.img
+              className="w-16 h-10"
+              variants={textVariants}
+              animate="scrollButton"
+              src="/scroll.png"
+              alt=""
+            />
+          )}
+        </h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (
@@ -114,10 +138,25 @@ const Projects = () => {
     </div>
   );
 };
-
 export default Projects;
 
 const items = [
+  {
+    id: -1,
+    clink:"https://github.com/Piyush-K108/MA",
+    plink:"https://mataniarchitects.com/",
+    title: "Matani Architects",
+    img: "/mataniarchitects.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+  },
+  {
+    id: 0,
+    clink:"https://github.com/Piyush-K108/Airry_Admin_Portal",
+    plink:"https://airyy.mataniarchitects.com/",
+    title: "Airyy Admin",
+    img: "/adminairyy.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+  },
   {
     id: 1,
     clink:"https://github.com/Piyush-K108/The-Gamers-Arena",

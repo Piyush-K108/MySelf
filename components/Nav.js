@@ -15,6 +15,11 @@ export const navData = [
   { name: "services", path: "/services", icon: <HiRectangleGroup /> },
   { name: "work", path: "/work", icon: <HiViewColumns /> },
   {
+    name: "projects",
+    path: "/projects",
+    icon: <FaProjectDiagram />,
+  },
+  {
     name: "testimonials",
     path: "/testimonials",
     icon: <HiChatBubbleBottomCenterText />,
@@ -24,11 +29,7 @@ export const navData = [
     path: "/contact",
     icon: <HiEnvelope />,
   },
-  {
-    name: "projects",
-    path: "/projects",
-    icon: <FaProjectDiagram />,
-  },
+ 
 ];
 
 import Link from "next/link";

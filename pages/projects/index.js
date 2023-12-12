@@ -19,13 +19,13 @@ const Single = ({ item }) => {
       <div className="container">
         <div className="wrapper xs:flex-col">
           <div
-            className="flex-1 flex h-[50%] items-center justify-center relative overflow-hidden group "
+            className="flex-1 flex items-center justify-center relative overflow-hidden group "
             ref={ref}
           >
             <Image
-              className="xs:mt-10 justify-center "
+              className="xs:mt-10  h-full w-full justify-center "
               src={item.img}
-              width={400}
+              width={500}
               height={500}
               alt=""
              
@@ -37,13 +37,13 @@ const Single = ({ item }) => {
 
             {/* title */}
             <div
-              className="absolute bottom-0 translate-y-full  xs:group-hover:-translate-y-6   group-hover:ss:-translate-y-14 group-hover:md:-translate-y-16  group-hover:xl:-translate-y-32  
+              className="absolute bottom-0 translate-y-full  xs:group-hover:-translate-y-16   group-hover:ss:-translate-y-8 group-hover:md:-translate-y-16 group-hover:sm:-translate-y-10  group-hover:xl:-translate-y-32
                         transition-all duration-300
                         "
             >
               <a 
               href={item.clink}
-              className=" text-[13px] xs:text-[8px] tracking-[0.2rem] group-hover:-translate-y-6 flex items-center justify-center gap-x-2 ">
+              className=" text-[13px] xs:text-[18px] lg:text-[24px] tracking-[0.2rem] group-hover:-translate-y-6 flex items-center justify-center gap-x-2 ">
                 {/* 1 */}
                 <div className="delay-100">Actual </div>
                 {/* 2 */}
@@ -52,13 +52,13 @@ const Single = ({ item }) => {
                   Code{" "}
                 </div>
                 {/* icon */}
-                <div className="text-xl  xs:text-[14px] translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
+                <div className="text-xl  xs:text-[18px] lg:text-[24px] translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
                   <BsArrowRight />
                 </div>
               </a>
               <a 
               href={item.plink}
-              className=" text-[13px] xs:text-[8px] tracking-[0.2rem] flex items-center justify-center gap-x-2 ">
+              className=" text-[13px] xs:text-[18px] tracking-[0.2rem] lg:text-[24px] flex items-center justify-center gap-x-2 ">
                 {/* 1 */}
                 <div className="delay-100">LIVE </div>
                 {/* 2 */}
@@ -67,7 +67,7 @@ const Single = ({ item }) => {
                   PROJECT{" "}
                 </div>
                 {/* icon */}
-                <div className="text-xl  xs:text-[14px] translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
+                <div className="text-xl  xs:text-[18px] lg:text-[24px] translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
                   <BsArrowRight />
                 </div>
               </a>
@@ -120,23 +120,23 @@ export default Projects;
 const items = [
   {
     id: 1,
-    clink:"",
+    clink:"https://github.com/Piyush-K108/The-Gamers-Arena",
     plink:"",
     title: "Object Detection",
-    img: "/object detection.png",
+    img: "/object detection.jpg",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
     id: 2,
-    clink:"",
+    clink:"https://github.com/Piyush-K108/Openvino_Android",
     plink:"",
     title: "Driving Alert",
-    img: "/Security.png",
+    img: "/Security.jpg",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
     id: 3,
-    clink:"",
+    clink:"https://github.com/Piyush-K108/Epsilon-Backend",
     plink:"",
     title: "Epsilon",
     img: "/Epsilon.jpg",
@@ -147,7 +147,7 @@ const items = [
     clink:"https://github.com/Piyush-K108/The-Gamers-Arena",
     plink:"",
     title: "Gamer's Arena",
-    img: "/gamerArena.png",
+    img: "/gamerArena.jpg",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
 ];

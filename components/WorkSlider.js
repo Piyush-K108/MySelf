@@ -67,40 +67,48 @@ const workSlides = {
     {
       images: [
         {
+          link:"",
           title: "title",
-          path: "/thumb1.jpg",
+          path: "/object detection.jpg",
         },
         {
+          link:"",
           title: "title",
-          path: "/thumb2.jpg",
+          path: "/Security.jpg",
         },
         {
+          link:"",
           title: "title",
-          path: "/thumb3.jpg",
+          path: "/Epsilon.jpg",
         },
         {
+          link:"",
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/gamerArena.jpg",
         },
       ],
     },
     {
       images: [
         {
+          link:"",
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/object detection.jpg",
         },
         {
+          link:"",
           title: "title",
-          path: "/thumb1.jpg",
+          path: "/Security.jpg",
         },
         {
+          link:"",
           title: "title",
-          path: "/thumb2.jpg",
+          path: "/Epsilon.jpg",
         },
         {
+          link:"",
           title: "title",
-          path: "/thumb3.jpg",
+          path: "/gamerArena.jpg",
         },
       ],
     },

@@ -140,54 +140,55 @@ const Projects = () => {
 };
 export default Projects;
 
+
 const items = [
   {
     id: -1,
-    clink:"https://github.com/Piyush-K108/MA",
-    plink:"https://mataniarchitects.com/",
+    clink: "https://github.com/Piyush-K108/MA",
+    plink: "https://mataniarchitects.com/",
     title: "Matani Architects",
     img: "/mataniarchitects.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Explore the innovative designs and architectural brilliance of Matani Architects. Visit our website to witness our projects and expertise in the field of architecture.",
   },
   {
     id: 0,
-    clink:"https://github.com/Piyush-K108/Airry_Admin_Portal",
-    plink:"https://airyy.mataniarchitects.com/",
+    clink: "https://github.com/Piyush-K108/Airry_Admin_Portal",
+    plink: "https://airyy.mataniarchitects.com/",
     title: "Airyy Admin",
     img: "/adminairyy.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Manage your Airyy Electric and Petrol Bike Rental Service efficiently with the Airyy Admin Portal.",
   },
   {
     id: 1,
-    clink:"https://github.com/Piyush-K108/The-Gamers-Arena",
-    plink:"",
+    clink: "https://github.com/Piyush-K108/The-Gamers-Arena",
+    plink: "",
     title: "Object Detection",
     img: "/object detection.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Experience the power of Object Detection technology. Explore potential use cases in various applications.",
   },
   {
     id: 2,
-    clink:"https://github.com/Piyush-K108/Openvino_Android",
-    plink:"",
+    clink: "https://github.com/Piyush-K108/Openvino_Android",
+    plink: "",
     title: "Driving Alert",
     img: "/Security.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Enhance road safety with the Driving Alert system. This security feature ensures the driver's attention, monitors face gaze, seat belt usage, and prevents distractions.",
   },
   {
     id: 3,
-    clink:"https://github.com/Piyush-K108/Epsilon-Backend",
-    plink:"",
+    clink: "https://github.com/Piyush-K108/Epsilon-Backend",
+    plink: "",
     title: "Epsilon",
     img: "/Epsilon.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Connect teachers and students seamlessly with Epsilon, an app designed for special education. It includes personalized profiles for special ed teachers and an in-app messaging system. Be part of an educational revolution.",
   },
   {
     id: 4,
-    clink:"https://github.com/Piyush-K108/The-Gamers-Arena",
-    plink:"",
+    clink: "https://github.com/Piyush-K108/The-Gamers-Arena",
+    plink: "",
     title: "Gamer's Arena",
     img: "/gamerArena.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Immerse yourself in the gaming world with Gamer's Arena. This desktop app allows you to buy CDs of games for different consoles. Sellers can efficiently record and manage their gaming inventory. Level up your gaming experience.",
   },
 ];
 

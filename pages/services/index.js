@@ -1,7 +1,6 @@
-
 import Bulb from "../../components/Bulb";
-import {Circles2} from "../../components/Circles";
-import ServiceSlider from "../../components/ServiceSlider"
+import { Circles2 } from "../../components/Circles";
+import ServiceSlider from "../../components/ServiceSlider";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 const Services = () => {
@@ -26,10 +25,12 @@ const Services = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="mb-4 max-w-[480px] mx-auto lg:mx-0"
+              className="mb-4 max-w-[480px] mx-auto text-center md:text-justify lg:mx-0"
             >
-              dbaisd uaudas asda ad aasdasd fefncxcnso fnsaodnassodun fofndd. n
-              nkdnasd ansdnnduha adbiasbfrg oahduir jnfsndf fsnfafnr.
+              Discover a range of services tailored to meet your needs. From
+              innovative solutions to data optimization, my offerings include
+              cutting-edge technologies and efficient workflows. Let's take your
+              projects to new heights together!
             </motion.p>
           </div>
           <motion.div

@@ -171,7 +171,7 @@ const items = [
     clink: "https://github.com/Piyush-K108/Openvino_Android",
     plink: "",
     title: "Driving Alert",
-    img: "/Security.jpg",
+    img: "/Driving.jpg",
     desc: "Enhance road safety with the Driving Alert system. This security feature ensures the driver's attention, monitors face gaze, seat belt usage, and prevents distractions.",
   },
   {

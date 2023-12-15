@@ -98,7 +98,7 @@ const workSlides = {
         {
           link:"",
           title: "title",
-          path: "/Security.jpg",
+          path: "/Driving.jpg",
         },
         {
           link:"",

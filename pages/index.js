@@ -2,7 +2,7 @@ import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
 import { motion } from "framer-motion";
-
+import CanvasModel from "../components/canvas/CanvasModel"
 import { fadeIn } from "../variants";
 
 const Home = () => {
@@ -72,11 +72,11 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[737px] max-h-[80px] absolute top-[20%] lg:bottom-0
+          className="w-full h-full max-w-[737px] max-h-[520px]   z-10 absolute top-[20%] lg:bottom-0
       lg:right-[8%]
       "
         >
-          <Avatar />
+          <CanvasModel />
         </motion.div>
       </div>
     </div>

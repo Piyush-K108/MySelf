@@ -2,6 +2,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import { FaQuoteLeft } from "react-icons/fa";
 import Image from "next/image";
+import "swiper/swiper.min.css";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+
 const TestimonialSlider = () => {
   return (
     <>

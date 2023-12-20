@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
       <Head>
         <link rel="icon" type="image/svg+xml" href="/avatar.png" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"/>
-        <title>Prashant Khanchandnai</title>
+        <title>Prashant khanchandani</title>
       </Head>
       <div
         className={`page bg-site text-white bg-cover   bg-no-repeat ${sora.variable} font-sora relative`}

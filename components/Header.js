@@ -12,7 +12,7 @@ const Header = () => {
               <span className=" text-[#fff] font-[200] text-4xl ">
                 Prashant
               </span>{" "}
-              Khanchandnai
+              Khanchandani
             </h1>
           </Link>
           <Socials />

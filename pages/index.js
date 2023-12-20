@@ -9,7 +9,8 @@ const Home = () => {
   return (
     <div className="bg-primary/60 !overflow-hidden xl:h-fill ss:h-full sm:h-full ">
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 ">
-        <div className="text-center flex flex-col justify-center  xs:pt-40 md:pt-0 xl:pt-40 xl:text-left h-full container mx-auto">
+        <div className="text-center flex flex-col justify-center   md:text-start   xs:pt-40 md:pt-0 xl:pt-40 xl:text-left h-full container mx-auto">
+          
           {/* Title */}
           <motion.h1
             variants={fadeIn("down", 0.2)}
@@ -20,11 +21,12 @@ const Home = () => {
           >
             Transfoming Ideas <br /> Into{" "}
             <span
-              className="text-accent"
+              className="text-accent  "
             >
               Digital Reality
             </span>
-          </motion.h1>
+           </motion.h1>    
+           
 
           {/* subtitles */}
 
@@ -33,7 +35,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xs:h-[140px] s:h-0 xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xs:h-[140px] ss:h-0 xl:mx-0 mb-10 xl:mb-16"
           >
             Crafting intelligent digital experiences with a touch of innovation,
             seamlessly weaving code and machine learning into captivating
@@ -58,14 +60,15 @@ const Home = () => {
       {/* image */}
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
         <div
-          className="bg-none xl:bg-explosion xl:bg-cove xl:bg-right
-        xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge
+          className="bg-none md:bg-explosion md:bg-cove md:bg-right
+        md:bg-no-repeat w-full h-full absolute mix-blend-color-dodge
         "
         ></div>
 
         {/* Particles */}
         <ParticlesContainer />
         {/* Avatar */}
+
         <motion.div
           variants={fadeIn("up", 0.5)}
           initial="hidden"
@@ -82,6 +85,7 @@ const Home = () => {
     </div>
   );
 };
+
 
 export default Home;
 

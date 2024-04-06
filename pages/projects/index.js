@@ -156,15 +156,15 @@ const items = [
     plink: "https://airyyrides.com/",
     title: "AiRYY Rides",
     img: "/ARHERO.png",
-    desc: "Manage your Airyy Electric and Petrol Bike Rental Service efficiently with the Airyy Admin Portal.",
+    desc: "AiRYY Rides Website. For Advertizing and book bikes from website itself.",
   },
   {
     id: 1,
     clink: "https://github.com/Piyush-K108/Airry_Admin_Portal",
     plink: "https://admin.airyyrides.com/",
-    title: "AiRYY Rides",
+    title: "AiRYY Admin",
     img: "/adminairyy.png",
-    desc: "AiRYY Rides Website",
+    desc: "Manage your AiRYY Electric and Petrol Bike Rental Service efficiently with the AiRYY Admin Portal.",
   },
 
   {

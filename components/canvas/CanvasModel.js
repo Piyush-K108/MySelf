@@ -6,7 +6,7 @@ import CamrraRig from "./CameraRig";
 import ME from "./ME";
 const CanvasModel = () => {
   return (
-    <Canvas camera={{ position: [0, -18, 10], fov: 5  }}>
+    <Canvas  camera={{ position: [0, -18, 10], fov: 5  }}>
      
       <Environment preset="sunset" />
       <CamrraRig>

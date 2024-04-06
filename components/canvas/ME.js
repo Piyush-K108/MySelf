@@ -28,7 +28,7 @@ useEffect(() => {
 }, [actions, animation]);
 
   const { nodes, materials } = useGLTF("avatarGreen.glb");
-
+  
   return (
     <group {...props} ref={group} dispose={null}>
       <group>

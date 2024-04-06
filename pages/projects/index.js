@@ -15,7 +15,7 @@ const Single = ({ item }) => {
   const y = useTransform(scrollYProgress, [0, 1], [-100, 100]);
 
   return (
-    <section className="xs:h-[70vh] ss:h-[70vh] sm:h-[70vh] md:h-[84vh] bg-[#1a1333] flex justify-center w-full snap-center ">
+    <section className="xs:h-[70vh] ss:h-[70vh] sm:h-[70vh] md:h-[84vh] bg-[#1a1333] flex justify-center w-full snap-center scrollbar-thin ">
       <div className="container">
         <div className="wrapper xs:flex-col">
           <div
@@ -37,7 +37,7 @@ const Single = ({ item }) => {
 
             {/* title */}
             <div
-              className="absolute bottom-0 translate-y-full  xs:group-hover:-translate-y-16   group-hover:ss:-translate-y-8 group-hover:md:-translate-y-16 group-hover:sm:-translate-y-10  group-hover:xl:-translate-y-32
+              className="absolute bottom-0 translate-y-full  xs:group-hover:-translate-y-16   group-hover:ss:-translate-y-8 group-hover:md:-translate-y-16 group-hover:sm:-translate-y-10  group-hover:xl:-translate-y-[5rem]
                         transition-all duration-300
                         "
             >
@@ -117,7 +117,7 @@ const Projects = () => {
 
   return (
     <div className="portfolio xs:pt-24 ss:pt-24 img:mr-20" ref={ref}>
-      <div className="progress z-[100] ">
+      <div className="progress z-10 ">
         <h1 className="xs:hidden  flex flec-row justify-center  ss:hidden">
           Featured Works
           {hideImage ? null : (
@@ -152,14 +152,23 @@ const items = [
   },
   {
     id: 0,
-    clink: "https://github.com/Piyush-K108/Airry_Admin_Portal",
-    plink: "https://airyy.mataniarchitects.com/",
-    title: "Airyy Admin",
-    img: "/adminairyy.png",
+    clink: "https://github.com/Piyush-K108/AiryyWeb2",
+    plink: "https://airyyrides.com/",
+    title: "AiRYY Rides",
+    img: "/ARHERO.png",
     desc: "Manage your Airyy Electric and Petrol Bike Rental Service efficiently with the Airyy Admin Portal.",
   },
   {
     id: 1,
+    clink: "https://github.com/Piyush-K108/Airry_Admin_Portal",
+    plink: "https://admin.airyyrides.com/",
+    title: "AiRYY Rides",
+    img: "/adminairyy.png",
+    desc: "AiRYY Rides Website",
+  },
+
+  {
+    id: 2,
     clink: "https://github.com/Piyush-K108/The-Gamers-Arena",
     plink: "",
     title: "Object Detection",
@@ -167,7 +176,7 @@ const items = [
     desc: "Experience the power of Object Detection technology. Explore potential use cases in various applications.",
   },
   {
-    id: 2,
+    id: 3,
     clink: "https://github.com/Piyush-K108/Openvino_Android",
     plink: "",
     title: "Driving Alert",
@@ -175,7 +184,7 @@ const items = [
     desc: "Enhance road safety with the Driving Alert system. This security feature ensures the driver's attention, monitors face gaze, seat belt usage, and prevents distractions.",
   },
   {
-    id: 3,
+    id: 4,
     clink: "https://github.com/Piyush-K108/Epsilon-Backend",
     plink: "",
     title: "Epsilon",
@@ -183,7 +192,7 @@ const items = [
     desc: "Connect teachers and students seamlessly with Epsilon, an app designed for special education. It includes personalized profiles for special ed teachers and an in-app messaging system. Be part of an educational revolution.",
   },
   {
-    id: 4,
+    id: 5,
     clink: "https://github.com/Piyush-K108/The-Gamers-Arena",
     plink: "",
     title: "Gamer's Arena",

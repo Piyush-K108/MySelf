@@ -63,23 +63,17 @@ export default TestimonialSlider;
 const testimonialData = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
+    name: "Aarti Matani",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Working with Prashant has been amazing.  Their expertise in web development and app design truly impressed me. The Airyy website and team app they created are both stunning and functional. I highly recommend their services!",
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
+    name: "Karan Bajaj",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Prashant exceeded our expectations with our website redesign. Their creativity and attention to detail were outstanding. Our new website reflects our brand perfectly and has received great feedback. We're very pleased with the results!",
   },
-  {
-    image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
-  },
+
 ];

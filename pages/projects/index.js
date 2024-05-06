@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { fadeIn } from "../../variants";
 import { useRef } from "react";
@@ -28,7 +28,6 @@ const Single = ({ item }) => {
               width={500}
               height={500}
               alt=""
-             
             />
             <div
               className="absolute  inset-0 bg-gradient-to-bl from-transparent via-[#e838cc] to-[#4a22bd] opacity-0
@@ -41,9 +40,10 @@ const Single = ({ item }) => {
                         transition-all duration-300
                         "
             >
-              <a 
-              href={item.clink}
-              className=" text-[13px] xs:text-[18px] lg:text-[24px] tracking-[0.2rem] group-hover:-translate-y-6 flex items-center justify-center gap-x-2 ">
+              <a
+                href={item.clink}
+                className=" text-[13px] xs:text-[18px] lg:text-[24px] tracking-[0.2rem] group-hover:-translate-y-6 flex items-center justify-center gap-x-2 "
+              >
                 {/* 1 */}
                 <div className="delay-100">Actual </div>
                 {/* 2 */}
@@ -56,9 +56,10 @@ const Single = ({ item }) => {
                   <BsArrowRight />
                 </div>
               </a>
-              <a 
-              href={item.plink}
-              className=" text-[13px] xs:text-[18px] tracking-[0.2rem] lg:text-[24px] flex items-center justify-center gap-x-2 ">
+              <a
+                href={item.plink}
+                className=" text-[13px] xs:text-[18px] tracking-[0.2rem] lg:text-[24px] flex items-center justify-center gap-x-2 "
+              >
                 {/* 1 */}
                 <div className="delay-100">LIVE </div>
                 {/* 2 */}
@@ -73,11 +74,13 @@ const Single = ({ item }) => {
               </a>
             </div>
           </div>
-          <motion.div 
-           style={{ y }}
-          className="textContainer flex-1 flex  flex-col justify-start">
+          <motion.div
+            style={{ y }}
+            className="textContainer flex-1 flex  flex-col justify-start"
+          >
             <h2 className="h2 flex justify-center xs:text-2xl ss:text-xl sm:text-[1.8rem] lg:text-[2.9rem] xl:text-[3.7rem] ">
-              {item.title}<span className="text-accent">.</span>
+              {item.title}
+              <span className="text-accent">.</span>
             </h2>
             <p className="xs:text-xs ss:text-xs    sm:text-justify     ss:text-center xs:text-center">
               {item.desc}
@@ -94,7 +97,8 @@ const Projects = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+      const scrollPosition =
+        window.scrollY / (document.body.scrollHeight - window.innerHeight);
       // Adjust the threshold as needed
       setHideImage(scrollPosition > 0.5);
     };
@@ -140,7 +144,6 @@ const Projects = () => {
 };
 export default Projects;
 
-
 const items = [
   {
     id: -1,
@@ -166,9 +169,17 @@ const items = [
     img: "/adminairyy.png",
     desc: "Manage your AiRYY Electric and Petrol Bike Rental Service efficiently with the AiRYY Admin Portal.",
   },
-
   {
     id: 2,
+    clink: "https://github.com/Piyush-K108/Sales",
+    plink: "https://github.com/Piyush-K108/Sales",
+    title: "Sales ETL Pipeline with AWS",
+    img: "https://link.to/your/project/image.png",
+    desc: "Implemented an ETL (Extract, Transform, Load) pipeline for sales data, leveraging various AWS services for seamless data processing and analysis. Key achievements include:",
+  },
+
+  {
+    id: 3,
     clink: "https://github.com/Piyush-K108/The-Gamers-Arena",
     plink: "",
     title: "Object Detection",
@@ -176,7 +187,7 @@ const items = [
     desc: "Experience the power of Object Detection technology. Explore potential use cases in various applications.",
   },
   {
-    id: 3,
+    id: 4,
     clink: "https://github.com/Piyush-K108/Openvino_Android",
     plink: "",
     title: "Driving Alert",
@@ -184,7 +195,7 @@ const items = [
     desc: "Enhance road safety with the Driving Alert system. This security feature ensures the driver's attention, monitors face gaze, seat belt usage, and prevents distractions.",
   },
   {
-    id: 4,
+    id: 5,
     clink: "https://github.com/Piyush-K108/Epsilon-Backend",
     plink: "",
     title: "Epsilon",
@@ -192,7 +203,7 @@ const items = [
     desc: "Connect teachers and students seamlessly with Epsilon, an app designed for special education. It includes personalized profiles for special ed teachers and an in-app messaging system. Be part of an educational revolution.",
   },
   {
-    id: 5,
+    id: 6,
     clink: "https://github.com/Piyush-K108/The-Gamers-Arena",
     plink: "",
     title: "Gamer's Arena",
@@ -223,8 +234,3 @@ const textVariants = {
     },
   },
 };
-
-
-
-
-

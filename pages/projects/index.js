@@ -174,7 +174,7 @@ const items = [
     clink: "https://github.com/Piyush-K108/Sales",
     plink: "https://github.com/Piyush-K108/Sales",
     title: "Sales ETL Pipeline with AWS",
-    img: "https://link.to/your/project/image.png",
+    img: "/aws.png",
     desc: "Implemented an ETL (Extract, Transform, Load) pipeline for sales data, leveraging various AWS services for seamless data processing and analysis. Key achievements include:",
   },
 
@@ -183,7 +183,7 @@ const items = [
     clink: "https://github.com/Piyush-K108/The-Gamers-Arena",
     plink: "",
     title: "Object Detection",
-    img: "/aws.png",
+    img: "/object detection.jpg",
     desc: "Experience the power of Object Detection technology. Explore potential use cases in various applications.",
   },
   {

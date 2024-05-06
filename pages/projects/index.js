@@ -183,7 +183,7 @@ const items = [
     clink: "https://github.com/Piyush-K108/The-Gamers-Arena",
     plink: "",
     title: "Object Detection",
-    img: "/object detection.jpg",
+    img: "/aws.png",
     desc: "Experience the power of Object Detection technology. Explore potential use cases in various applications.",
   },
   {

@@ -69,7 +69,7 @@ const testimonialData = [
       "Working with Prashant has been amazing.  Their expertise in web development and app design truly impressed me. The Airyy website and team app they created are both stunning and functional. I highly recommend their services!",
   },
   {
-    image: "/t-avt-2.png",
+    image: "/t-avt-3.png",
     name: "Karan Bajaj",
     position: "Customer",
     message:

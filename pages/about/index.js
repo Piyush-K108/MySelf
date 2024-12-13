@@ -66,12 +66,16 @@ const aboutData = [
     title: "Certificates",
     info: [
       {
-        title: "AWS Foundation",
-        stage: "2023",
+        title: "AWS Cloud Practitioner",
+        stage: "2024",
       },
       {
         title: "ICRCI Reviw Paper on YOLO",
         stage: "2022",
+      },
+      {
+        title: "NEPTEL DATA Minigning",
+        stage: "2023",
       },
     ],
   },
@@ -80,15 +84,19 @@ const aboutData = [
     info: [
       {
         title: "Freelancing",
-        stage: "2012 - 2023",
+        stage: "2022 - Present",
       },
       {
-        title: "Intern - AiRYY",
-        stage: "2010 - 2012",
+        title: "Developer/Part-Time - AiRYY Rides",
+        stage: "2022 - Present",
       },
       {
         title: "Intern - TechFloric",
-        stage: "2008 - 2010",
+        stage: "2022 - 2022",
+      },
+      {
+        title: "Developer - TechFloric",
+        stage: "2024 - Present",
       },
     ],
   },
@@ -101,7 +109,7 @@ const aboutData = [
       },
 
       {
-        title: "Schooling Agrasen Indore",
+        title: "Schooling-  Shri Agrasen Vidhyalaya Indore",
         stage: "2019",
       },
     ],

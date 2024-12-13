@@ -13,33 +13,44 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: "Branding",
-    description: "Craft unique brand identity. Captivate your audience with expert branding services.",
+    description:
+      "Craft unique brand identity. Engage your audience with expertise and creativity for lasting impressions.",
   },
   {
     icon: <RxPencil2 />,
     title: "Design",
-    description: "Transform ideas into stunning designs. Combine innovation and aesthetics for impactful solutions.",
+    description:
+      "Transform ideas into stunning designs. Combine innovation and aesthetics for impactful solutions.",
   },
   {
     icon: <RxDesktop />,
     title: "Development",
-    description: "Build scalable digital solutions. Transform concepts into reality with cutting-edge technologies.",
+    description:
+      "Build scalable digital solutions. Transform concepts into reality with cutting-edge technologies.",
+  },
+  {
+    icon: <RxRocket />,
+    title: "Data Science",
+    description:
+      "Gain insights from data. Unlock the power of data for informed decision-making and strategic planning.",
   },
   {
     icon: <RxReader />,
     title: "Web Scraping",
-    description: "Extract insights from the web. Utilize advanced scraping techniques for informed decision-making.",
+    description:
+      "Extract insights from the web. Utilize advanced scraping techniques for informed decision-making.",
   },
   {
     icon: <RxRocket />,
     title: "Data Engineering",
-    description: "Optimize data infrastructure. Implement efficient pipelines for seamless processing and analysis.",
+    description:
+      "Optimize data infrastructure. Implement efficient pipelines for seamless processing and analysis.",
   },
+ 
 ];
 
-
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination } from 'swiper';
+import { FreeMode, Pagination } from "swiper";
 import "swiper/swiper.min.css";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -55,11 +66,10 @@ const ServiceSlider = () => {
       }}
       freeMode={true}
       onPaginationShow={true}
-    
       pagination={{
         clickable: true,
       }}
-      modules={[ FreeMode, Pagination]}
+      modules={[FreeMode, Pagination]}
       className="h-[240px] sm:h-[340px]"
     >
       {serviceData.map((item, index) => {
@@ -83,9 +93,7 @@ const ServiceSlider = () => {
 
               {/* arow */}
               <div className="text-3xl ">
-                <RxArrowTopRight
-                  className="group-hover:rotate-45 group-hover:text-accent transition-all   duration-300"
-                />
+                <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all   duration-300" />
               </div>
             </div>
           </SwiperSlide>

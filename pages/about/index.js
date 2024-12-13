@@ -74,7 +74,7 @@ const aboutData = [
         stage: "2022",
       },
       {
-        title: "NEPTEL DATA Minigning",
+        title: "NPTEL DATA Minigning",
         stage: "2023",
       },
     ],
